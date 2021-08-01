@@ -25,6 +25,8 @@ As well as interactive tables, the data is presented in timeline and gannt chart
 
 The key metrics presented in the [covidlive.com.au](https://covidlive.com.au/breaches) tables are recalculated dynamically, reflecting your selection of a date range.  I've also added a "% Effective" calculation, for comparison to the famous "99.99% effective" claim.
 
+"Forecast Next Breach" column is based on the date of the latest breach + the average days between breaches. Colour shading indicates how imminent the derived date is.
+
 The data is presented using an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data (e.g. by Geography or Date), and includes supporting charts and data tables.  
 
 The dataviz is refreshed automatically, roughly every 2 hours during the daytime (AEST GMT+10). 
